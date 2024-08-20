@@ -82,7 +82,6 @@ fig, ax1 = plt.subplots()
 ax1.set_title("rsi")
 fig.subplots_adjust(bottom=0.2)
 ax1.plot(df["RSI"])
-        
 ax1.set_ylim(0, 100)
 ax1.axhline(y=70, color='r', linestyle='-')
 ax1.axhline(y=30, color='r', linestyle='-')
