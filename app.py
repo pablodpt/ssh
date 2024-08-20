@@ -2,7 +2,7 @@ import streamlit as st
 import yfinance as yf
 import matplotlib.pyplot as plt
 import pandas as pd
-import pandas_ta  as ta
+import ta-lib as ta
 from datetime import datetime, timedelta
 
 # Definir el símbolo de la acción (este es un ejemplo, puedes cambiarlo por el que desees)
