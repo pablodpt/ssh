@@ -64,7 +64,6 @@ ax2.tick_params('y', colors='gray')
 st.pyplot(plt)
 
 # Calcular RSI con Pandas Ta
-df['RSI'] = ta.rsi(df['Close'], length=14)
 
 # Crear el gráfico de las bandas de Bollinger
 fig, ax1 = plt.subplots(figsize=(12, 6))
